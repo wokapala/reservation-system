@@ -1,0 +1,20 @@
+# Compiled files
+bin/
+*.class
+
+# IDE
+.idea/
+.vscode/
+*.iml
+.claude/
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.swp
+*~
