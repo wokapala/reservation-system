@@ -48,11 +48,11 @@ public class Main {
         );
 
         // 5. Demonstracja automatyczna (można zakomentować i przejść do interaktywnego trybu)
-        System.out.println("\n>>> DEMONSTRACJA AUTOMATYCZNA <<<\n");
-        runAutomatedDemo(reservationService, users, rooms);
+        //System.out.println("\n>>> DEMONSTRACJA AUTOMATYCZNA <<<\n");
+        //runAutomatedDemo(reservationService, users, rooms);
 
         // 6. Tryb interaktywny (odkomentuj aby używać)
-        // runInteractiveMode(reservationService, users.get(0), rooms);
+        runInteractiveMode(reservationService, users.get(0), rooms);
     }
 
     /**
@@ -97,6 +97,7 @@ public class Main {
     /**
      * Demonstracja automatyczna - pokazuje wszystkie wzorce w akcji.
      */
+    @SuppressWarnings("unused")
     private static void runAutomatedDemo(
         ReservationService service,
         List<User> users,
